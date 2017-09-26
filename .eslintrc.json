@@ -1,0 +1,15 @@
+{
+  "extends": ["standard-jsx"],
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+      "sourceType": "module"
+  },
+    "rules": {
+    	"object-curly-spacing": [2, "never"],
+    	 "indent": 0,
+    	 "react/jsx-curly-spacing": [2, "never"]
+    }
+   
+}

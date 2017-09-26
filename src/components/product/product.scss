@@ -1,0 +1,56 @@
+#serchHeader{
+	background:#dddddd;
+	padding-top:20px;
+
+	h2{
+		float:left;
+		font-size:25px;
+		font-weight: bold;
+		width:auto;
+		margin-right:20px;
+	}
+	input {
+		float:left;
+		min-width: 200px;
+		max-width: 300px;
+	}
+	button{
+		float:right;
+	}
+}
+#searchResults {
+	ul{
+		list-style: none;
+		float:left;
+		width:100%;
+		padding:0;
+		margin:0;
+		li{
+			padding:10 0px;
+			margin-bottom:10px;
+			border-bottom:1px solid #333;
+		}
+		li:last-child{
+			border:none;
+		}
+		li,a {
+			float:left;
+			width:100%;
+			display:block;
+			img, h3 {
+				float:left;
+				width:auto;
+				margin-right:10px;
+				color:#333;
+			} 
+
+			p{
+				float:right;
+				color:#333;
+			}
+		}
+
+
+	}
+
+}
